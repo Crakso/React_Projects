@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/Header";
-import { LeftBar, Top } from "../../components/index";
+import { Card, LeftBar, Top, RightBar } from "../../components/index";
 function Home() {
   return (
     <>
@@ -11,8 +11,17 @@ function Home() {
         </div>
         <div className="max-sm:w-[95%] max-md:w-[80%] max-lg:w-[70%] lg:w-[50%] xl:w-[40%]">
           <Top />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
         </div>
-        <div className="max-lg:hidden">rightbar</div>
+        <div className="max-lg:hidden ml-10">
+          <RightBar />
+        </div>
       </div>
     </>
   );

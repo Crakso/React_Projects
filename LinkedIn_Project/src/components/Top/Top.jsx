@@ -41,7 +41,7 @@ function Top() {
           </button>
         </span>
       </div>
-      <div>
+      <div className="mb-8">
         <div className="flex flex-col w-full border-2 gap-1 bg-white rounded-2xl p-2">
           <div className="flex justify-center items-center  gap-3 mt-2">
             <span className="h-12 w-12 bg-green-400 rounded-full">

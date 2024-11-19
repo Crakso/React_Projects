@@ -17,7 +17,7 @@ function LeftBar() {
   const [ConnectionsCount, setConnectionsCount] = useState(22);
   return (
     <>
-      <div>
+      <div className="flex flex-col w-full]">
         <div className=" bg-white w-[80%] border-2 rounded-lg flex flex-col relative">
           <img
             src="https://img.freepik.com/premium-photo/blue-paper-linkedin-abstract-background_608068-5080.jpg?semt=ais_hybrid"
